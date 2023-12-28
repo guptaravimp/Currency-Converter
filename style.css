@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Josefin+Sans:ital,wght@1,300&family=Kalam:wght@700&family=Lobster&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,500;1,500;1,600;1,700;1,900&family=Recursive:wght@900;1000&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@100;400&family=Shrikhand&family=Updock&display=swap');
+
+
+*{
+  margin: 0px ;
+  padding: 0px ;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgrey;
+  /* border: 2px solid red; */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.childcontainer{
+  /* border: 2px solid red ; */
+  height: 70vh;
+  width: 25vw;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+  background-color: white;
+
+}
+.childcontainer h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amount{
+  margin-top: 30px;
+  /* border: 2px solid red ; */
+  font-size: 20px;
+}
+.amount input{
+  margin-top: 5px ;
+  height: 35px;
+  width: 23vw;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding:5px 10px ;
+}
+.childcontainer form{
+  margin: 18px 0px 2px 0px ;
+}
+.dropdown{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 26px 4px 12px 2px; ;
+  font-size: 20px;
+}
+.dropdown i{
+  font-size: 30px;
+}
+.select-container{
+  height: 40px;
+  width: 10vw;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  border: 1.5px solid  lightgray;
+  border-radius: 10px;
+}
+.select-container img {
+  height: 45px ;
+  width: 55px ;
+}
+.select-container select{
+  height: 30px ;
+  width: 60px ;
+  font-size: 15px;
+  border: none;
+}
+
+.msg{
+margin: 30px 0px 20px 0px ;
+font-size: 18px;
+font-weight: bold;
+}
+#btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: 30px ;
+  height: 40px;
+  width: 24vw;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: steelblue !important;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
